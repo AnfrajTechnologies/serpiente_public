@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		875F6BA820CAE860007C3160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BA720CAE860007C3160 /* AppDelegate.swift */; };
 		875F6BAA20CAE860007C3160 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BA920CAE860007C3160 /* GameScene.sks */; };
-		875F6BAC20CAE860007C3160 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BAB20CAE860007C3160 /* Actions.sks */; };
 		875F6BAE20CAE860007C3160 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BAD20CAE860007C3160 /* GameScene.swift */; };
 		875F6BB020CAE860007C3160 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BAF20CAE860007C3160 /* GameViewController.swift */; };
 		875F6BB320CAE860007C3160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BB120CAE860007C3160 /* Main.storyboard */; };
 		875F6BB520CAE860007C3160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BB420CAE860007C3160 /* Assets.xcassets */; };
 		875F6BB820CAE860007C3160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BB620CAE860007C3160 /* LaunchScreen.storyboard */; };
 		875F6BC320CAE860007C3160 /* serpienteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BC220CAE860007C3160 /* serpienteTests.swift */; };
+		875F6BD020CAEAE4007C3160 /* serpiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BCF20CAEAE4007C3160 /* serpiente.swift */; };
+		875F6BD220CAEEA4007C3160 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F6BD120CAEEA4007C3160 /* GameManager.swift */; };
+		875F6BD420CAF21D007C3160 /* serpiente__1280x720.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 875F6BD320CAF21D007C3160 /* serpiente__1280x720.png.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,6 @@
 		875F6BA420CAE860007C3160 /* serpiente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = serpiente.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875F6BA720CAE860007C3160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875F6BA920CAE860007C3160 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		875F6BAB20CAE860007C3160 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		875F6BAD20CAE860007C3160 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		875F6BAF20CAE860007C3160 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		875F6BB220CAE860007C3160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +43,9 @@
 		875F6BBE20CAE860007C3160 /* serpienteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = serpienteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875F6BC220CAE860007C3160 /* serpienteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serpienteTests.swift; sourceTree = "<group>"; };
 		875F6BC420CAE860007C3160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875F6BCF20CAEAE4007C3160 /* serpiente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serpiente.swift; sourceTree = "<group>"; };
+		875F6BD120CAEEA4007C3160 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		875F6BD320CAF21D007C3160 /* serpiente__1280x720.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = serpiente__1280x720.png.jpeg; path = ../../../../Downloads/serpiente__1280x720.png.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		875F6B9B20CAE860007C3160 = {
 			isa = PBXGroup;
 			children = (
+				875F6BCF20CAEAE4007C3160 /* serpiente.swift */,
 				875F6BA620CAE860007C3160 /* serpiente */,
 				875F6BC120CAE860007C3160 /* serpienteTests */,
 				875F6BA520CAE860007C3160 /* Products */,
@@ -85,11 +90,12 @@
 			children = (
 				875F6BA720CAE860007C3160 /* AppDelegate.swift */,
 				875F6BA920CAE860007C3160 /* GameScene.sks */,
-				875F6BAB20CAE860007C3160 /* Actions.sks */,
 				875F6BAD20CAE860007C3160 /* GameScene.swift */,
 				875F6BAF20CAE860007C3160 /* GameViewController.swift */,
+				875F6BD120CAEEA4007C3160 /* GameManager.swift */,
 				875F6BB120CAE860007C3160 /* Main.storyboard */,
 				875F6BB420CAE860007C3160 /* Assets.xcassets */,
+				875F6BD320CAF21D007C3160 /* serpiente__1280x720.png.jpeg */,
 				875F6BB620CAE860007C3160 /* LaunchScreen.storyboard */,
 				875F6BB920CAE860007C3160 /* Info.plist */,
 			);
@@ -150,12 +156,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Rosy Contreras";
 				TargetAttributes = {
 					875F6BA320CAE860007C3160 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					875F6BBD20CAE860007C3160 = {
 						CreatedOnToolsVersion = 9.2;
@@ -191,8 +197,8 @@
 				875F6BB320CAE860007C3160 /* Main.storyboard in Resources */,
 				875F6BAA20CAE860007C3160 /* GameScene.sks in Resources */,
 				875F6BB520CAE860007C3160 /* Assets.xcassets in Resources */,
+				875F6BD420CAF21D007C3160 /* serpiente__1280x720.png.jpeg in Resources */,
 				875F6BB820CAE860007C3160 /* LaunchScreen.storyboard in Resources */,
-				875F6BAC20CAE860007C3160 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				875F6BAE20CAE860007C3160 /* GameScene.swift in Sources */,
+				875F6BD020CAEAE4007C3160 /* serpiente.swift in Sources */,
 				875F6BB020CAE860007C3160 /* GameViewController.swift in Sources */,
 				875F6BA820CAE860007C3160 /* AppDelegate.swift in Sources */,
+				875F6BD220CAEEA4007C3160 /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +276,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -275,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -325,6 +335,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -332,6 +343,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -365,11 +377,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = serpiente/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anfraj.serpiente;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,11 +393,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = serpiente/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anfraj.serpiente;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
